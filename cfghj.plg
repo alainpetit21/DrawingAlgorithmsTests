@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cfghj - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/cfghj.res" /d "NDEBUG" /d "_AFXDLL" "Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghj.rc"" 
+Creating temporary file "C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP1ADB.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/cfghj.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghj.cpp"
+"Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp"
+"Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjView.cpp"
+"Z:\WORK\ALAINPETIT\CODE\CFGHJ\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP1ADB.tmp" 
+Creating temporary file "C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP1ADC.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/cfghj.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"Z:\WORK\ALAINPETIT\CODE\CFGHJ\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ALAINP~1\LOCALS~1\Temp\RSP1ADC.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/cfghj.pdb" /machine:I386 /out:"Release/cfghj.exe"  .\Release\cfghj.obj .\Release\cfghjDoc.obj .\Release\cfghjView.obj .\Release\MainFrm.obj .\Release\StdAfx.obj .\Release\cfghj.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+cfghj.cpp
+cfghjDoc.cpp
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(80) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(81) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(82) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(117) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(118) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(119) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(140) : warning C4018: '<' : signed/unsigned mismatch
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(162) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(163) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(164) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(182) : warning C4018: '<' : signed/unsigned mismatch
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(204) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(205) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(206) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(227) : warning C4018: '<' : signed/unsigned mismatch
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(259) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(260) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(261) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(577) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(599) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(622) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(623) : warning C4244: 'initializing' : conversion from 'float' to 'unsigned char', possible loss of data
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(637) : warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(657) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(658) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(659) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(659) : warning C4244: 'initializing' : conversion from 'float' to 'unsigned char', possible loss of data
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(682) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(683) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjDoc.cpp(683) : warning C4244: 'initializing' : conversion from 'float' to 'unsigned char', possible loss of data
+cfghjView.cpp
+Z:\WORK\ALAINPETIT\CODE\CFGHJ\cfghjView.cpp(96) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+MainFrm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+cfghj.exe - 0 error(s), 31 warning(s)
+</pre>
+</body>
+</html>
